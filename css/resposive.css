@@ -1,0 +1,687 @@
+
+
+@media screen and (max-width:1024px){
+
+
+    .container{
+        width: 96%;
+        margin: 0 auto;
+    }
+
+    .navbar{
+        width: 100%;
+    }
+
+       
+
+    .navbar .menu .main-menu > li {
+        margin-bottom: 50px;
+        padding: 0px  5px;
+        ;
+    }
+
+    .navbar .main-menu .features{
+        width: 890px;
+        
+    }
+
+    .menu ul li:hover > ul{
+        width: 300px;
+    }
+
+    .hero .content{
+        width: 100%;
+    }
+
+    #blog{
+        width: 100%;
+    }
+
+    #blog .title{
+        text-align: center;
+    }
+
+
+    #blog .blog .blog-item{
+        margin: 20px auto;
+        width: 31%;
+    }
+
+
+    #technology .main-div{
+        padding-bottom: 40px;
+        padding-left: 0px;
+        width: 100%;
+    }
+
+    #technology .main-div .img-item img{
+        width: 100%;
+    }
+
+    #technology .right-div{
+        width: 100%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 0px;
+    }
+
+    .fashion .title{
+        text-align: center;
+    }
+
+    .fashion .title h2{
+        margin: 0 60px
+    }
+
+
+    .fashion .fashion-item .img-item{
+        margin-left: 260px;
+        float: none;
+    }
+
+
+    .fashion .fashion-item .content{
+        width: 500px;
+        margin-left: 260px;
+        padding-top: 50px;
+    }
+
+
+
+    .newsletter .inner-div{
+        width: 85%;
+        margin-right: 170px;
+    }
+
+    .newsletter .inner-div .title{
+        margin-top: 20px;
+        padding-left: 15px;
+    }
+
+    .newsletter .inner-div .input input{
+        width: 260px;
+    }
+
+    .newsletter button{
+       text-align: center;
+    }
+
+    .travel .title{
+        text-align: center;
+    }
+
+    .travel .title h1{
+        margin:  0 55px;
+    }
+
+    .travel .travel-item .like6{
+        margin-top: 175px;
+    }
+
+    .gallery .gallery-item{
+        padding-left: 210px;
+    }
+
+    footer p{
+        padding: 30px 40px;
+    }
+
+
+    .footer-menu .footer-img{
+
+        padding-right: 70px;
+
+    }
+} 
+
+@media screen and (max-width: 890px){
+
+      
+    .navbar .burger{
+        display: block;
+        margin-right: 50px;
+        font-size: 40px;
+    } 
+
+    .navbar .menu{
+        display: none;
+    }
+
+    .navbar .social-menu{
+       display: none;
+    }
+
+}
+
+
+
+
+/* Tablet */
+
+@media screen and (max-width:768px){
+
+    .container{
+        width: 96%;
+        margin: 0 auto;
+    }
+    
+    .navbar{
+       
+        padding: 10px 30px;
+        width: 100%;
+        height: 130px;
+    }
+
+        
+    .navbar .burger{
+        display: block;
+        float: right;
+    }
+
+    .navbar img{
+        float: left;
+    }
+     
+    .navbar .menu{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 100px;
+    }
+    
+
+    .menu ul li .sub-menu{
+        margin: 45px -155px;
+    }
+
+    .menu ul li .social-menu{
+        margin: 0px;
+    }
+    
+
+    .navbar .main-menu .features {
+        display: flex;
+        width: 120%;
+        right: 115px
+    }
+    .navbar .social-menu{
+        padding-bottom: 50px;
+    }
+
+    #blog{
+        width: 100%;
+        margin: 0 auto
+    
+    }
+
+    #blog .blog{
+        width: 100%;
+        display: block;
+    }
+
+    #blog .blog .blog-item{
+        margin: 0 auto;
+        width: 50%;
+    }
+
+    #blog .title{
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    
+    #technology{
+        padding-top: 90px;
+        
+    }
+
+    #technology .main-div img{
+        width: 100%;
+    }
+
+    #technology .main-div{
+        float: none;
+        width: 94%;
+        margin: 0 auto;
+    }
+
+    #technology .title{
+        text-align: center;
+    }
+
+    #technology .main-div p{
+        width: 87%;
+    }
+
+    #technology .main-div .like6{
+        margin-top: 210px;
+    }
+
+    #technology .right-div{
+        float: none;
+        width: 94%;
+        
+    }
+
+
+    .fashion{
+        width: 100%;
+    }
+
+    .fashion .title{
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .fashion .fashion-item .img-item{
+        float: none;
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    .fashion .fashion-item .content{
+        margin: 0 auto;
+        width: 80%;
+    }
+
+
+    .newsletter{
+        margin-left: 0px;
+        
+    }
+
+    .newsletter .inner-div{
+        width: 80%;
+        display: block;
+    }
+
+    .newsletter .inner-div .title{
+        text-align: center;
+    }
+
+
+    .newsletter .inner-div .input{
+        margin: 0 91px;
+        margin-top: 20px;
+    }
+
+    .newsletter .inner-div button{
+        text-align: center;
+    }
+
+
+    .travel .title{
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .travel .title p{
+        padding-left: 0;
+    }
+
+    .travel .travel-item{
+        margin:  0 auto;
+        width: 100%;
+    }
+
+    .travel .travel-blog{
+        display: block;
+    }
+
+    .travel .travel-blog .travel-item .img-item{
+            width: 50%;
+            margin: 0 auto;
+    }
+
+
+    .travel .travel-blog .travel-item .content{
+        width: 50%;
+        margin: 0px auto;
+    }
+
+
+    .gallery .gallery-item{
+        padding-left: 170px;
+    }
+
+    .contact{
+        padding: 10px 74px;
+    }
+
+
+    footer{
+        height: 65px;
+    }
+
+    footer p{
+        padding: 20px 15px;
+    }
+
+    footer ul{
+        padding: 20px 10px;
+    }
+
+    footer ul li{
+        padding-left: 5px;
+    }
+
+
+    .footer-menu{
+        display: none;
+    }
+ }
+
+
+
+
+
+ 
+/* tablet larg size */
+
+
+
+/* mobile */
+
+@media screen and (max-width:451px){
+
+
+
+    .hero{
+        width: 100%;
+    }
+
+    .navbar{
+        width: 100%;
+        position: absolute;
+    }
+
+        
+    .navbar .burger{
+        display: block;
+        margin: 0px;
+    }
+
+    .navbar img{
+       padding: 0px;
+       width: 90px;
+    }
+
+
+        
+    .hero::before{
+        content:'' ;
+        position: absolute;
+        top: 0px;
+        left: 0;
+        width: 100%;
+        height: 700px;
+        background-color: rgba(0, 0, 0, 0.425);
+        
+    }
+
+    .hero .content h1{
+        font-size: 25px;
+    }
+
+    .hero .content p{
+        font-size: 10px;
+    }
+
+    .menu ul{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navbar .menu{
+        padding-left: 90px;
+        position: relative;
+    }
+
+    .navbar .menu .main-menu > li{
+        margin-bottom: 35px;
+    }
+
+    .menu ul li .sub-menu{
+        width: 250px;
+        margin-left: -100px;
+        top: 0px;
+        z-index: 2;
+        position:absolute;
+    }
+
+    #blog .blog .title{
+        margin: 0 auto;
+        
+    }
+
+    #blog h1{
+        margin: 0 20px;
+        font-size: 2rem;
+    }
+
+    #blog .title p{
+        margin:  0 65px;
+        font-size: 1rem;
+    }
+
+    #blog .blog .blog-item{
+        margin:  10px auto;
+        width: 85%;
+    }
+
+    #blog .blog .blog-item h2{
+        font-size: 1.3rem;
+    }
+
+    #blog .blog{
+        margin-top: 20px;
+    }
+
+    #blog #read-more{
+        padding: 20px 50px;
+    }
+
+    #blog .blog .blog-item .item4{
+        margin-top: 10px;
+    }
+
+    #technology .title{
+        margin: 0 auto;
+    }
+
+    #technology .title h1{
+        
+        font-size: 2rem;
+    }
+
+    #technology .title p{
+        margin: 0 58px;
+    }
+
+    #technology .main-div .like6{
+        margin-top: 85px;
+        width: 60px;
+        height: 60px;
+        font-size: 11px;
+    }
+
+    #technology .main-div{
+        padding: 20px 0px;
+        width: 90%;
+    }
+
+    #technology .main-div .content{
+        width: 100%;
+    }
+
+    #technology .main-div h2{
+        font-size: 1.3rem;
+    }
+
+    #technology .main-div p{
+        width: 100%;
+        font-size: 0.8rem;
+    }
+
+    #technology .right-div{
+        margin: 0px auto;
+        display: block;
+    }
+
+    #technology #banner{
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+
+    .fashion .title h1{
+        font-size: 2rem;
+    }
+
+    .fashion .title p{
+        margin: 0 70px;
+    }
+
+    .fashion .fashion-item a h2{
+        padding-right: 0px;
+        padding-bottom: 15px;
+        font-size: 1.1rem
+    }
+
+    .fashion .fashion-item{
+        padding-bottom: 50px;
+    }
+
+    .fashion .fashion-item p{
+        font-size: 0.8rem;
+    }
+
+    .newsletter{
+        background-image: none;
+    }
+
+
+    .newsletter .inner-div{
+        width: 90%;
+        background-color: rgb(235, 232, 222);
+        margin: 0px 10px;
+        border-radius: 5px;
+    }
+
+    .newsletter .inner-div .title{
+        text-align: center;
+    }
+    
+    .newsletter .inner-div .title h2{
+        font-size: 15px;
+    }
+
+    .newsletter .inner-div .title p{
+        font-size: 10px;
+    }
+
+     .newsletter .inner-div .input{
+        display: flex;
+        flex-direction: column;
+        margin:  0 auto;
+        margin-top: 10px;
+        width: 90%;
+    }
+
+    .newsletter .inner-div .input input{
+        width: 90%;
+    }
+
+    .newsletter button{
+        width: 50%;
+        margin: 65px 70px;
+    }
+
+    .travel{
+        padding-top: 0px;
+    }
+
+    .travel .title h1{
+        font-size: 2rem;
+    }
+
+    .travel .travel-blog .travel-item .img-item{
+        width: 90%;
+    }
+
+    .travel .travel-blog .travel-item .content{
+        width: 90%;
+    }
+
+    .travel .travel-item a h2{
+        padding-left: 0px;
+        font-size: 1.1rem;
+    }
+
+    .travel .travel-item h4{
+        padding-left: 0px;
+    }
+
+    .travel .travel-item p{
+        padding-left: 0px;
+        font-size: 0.9rem;
+    }
+
+    .travel .travel-item .social-blog{
+        padding-left: 0px;
+    }
+
+    .gallery .gallery-item{
+        display: flex;
+        flex-direction: column;
+        padding: 15px 0px;
+    }
+
+    .gallery .gallery-item img{
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .contact{
+        flex-direction: column;
+        padding: 0px 27px;
+    }
+
+
+    .contact .social ul li{
+        padding: 10px 7px;
+    }
+
+    .contact .akea{
+        width: 100%;
+    }
+
+    .contact .akea p{
+        font-size: 15px;
+    }
+
+    footer{
+        display: flex;
+        flex-direction: column;
+        height: 300px;
+    }
+
+    .footer-menu{
+        display: none;
+    }
+
+    footer p{
+        font-size: 13px;
+    }
+
+    footer ul{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    footer ul li{
+        padding: 5px 0px;
+    }
+
+} 
+

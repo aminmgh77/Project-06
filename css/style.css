@@ -1,0 +1,1241 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;
+}
+
+body{
+    font-family: 'Poppins' , sans-serif;
+    background-color: white;
+    
+}
+
+ul{
+    list-style: none;
+}
+
+
+a{
+    color: rgb(109, 108, 108);
+    text-decoration: none;
+    font-weight: bold;
+    
+    
+}
+
+h1,h2{
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.container{
+    width: 1350px;
+    margin: 0px auto;
+}
+
+
+/* navbar */
+
+
+.navbar .menu .main-menu .current::before{
+    content: '';
+    position: absolute;
+    left: 0px;
+    bottom: 45px;
+    background-color: red;
+    width: 20px;
+    height: 2px;
+    
+}
+
+.navbar .burger{
+    display: none;
+}
+
+
+.current{
+    
+    color: black;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    width: 100%;
+    height: 120px;
+    position: fixed;
+    z-index: 20;
+    top: 0px;
+}
+
+.navbar .menu .main-menu li{
+   display: inline-block;
+   padding: 0 15px;
+   
+
+}
+
+
+
+
+.navbar .menu .main-menu > li > a:hover::before{
+    content: '';
+    position: absolute;
+    left: 0px;
+    bottom: 45px;
+    background-color: red;
+    width: 20px;
+    height: 2px;
+}
+
+.navbar .menu ul li ul li ul{
+    margin-left: 220px;
+    margin-top: -72px;
+    width: 100%;
+}
+
+.navbar .menu ul li ul li i{
+    padding-left: 22px;
+}
+
+.navbar .menu .main-menu a > li{
+    height: 80px;
+}
+
+.menu ul{
+    position: relative;
+    
+}
+
+.menu ul li .sub-menu{
+    position: absolute;
+    background-color: #333;
+    width:50%;
+    padding: 15px 15px;
+    visibility: hidden;
+    top: 65px;
+    opacity: 0;
+    transition: all 0.2s ease-in-out;
+    
+}
+
+.menu ul li:hover > ul{
+    top: 72px;
+    visibility: visible;
+    opacity: 1;
+}
+
+.menu ul li .sub-menu li{ 
+    width: 100%;
+    color: white;
+    margin: 8px 0;
+    position: relative;
+}
+
+.navbar a{
+    transition: all 0.1s ease-in-out;
+    position: relative;
+    padding-bottom: 45px;
+}
+
+.navbar img{
+    width: 100px;
+    margin-left: 50px;
+   
+}
+
+.navbar .main-menu a:hover{
+    
+    color: black;
+    
+} 
+.navbar .main-menu ul li ul{
+    text-align: center;
+    
+}
+
+.navbar .social-menu{
+    display: flex;
+    
+}
+
+.navbar .social-menu li{
+    padding: 0 15px;
+}
+
+.navbar .social-menu li:hover a{
+    color: coral;
+}
+
+.navbar .social-menu li span{
+    color: black;
+}
+
+
+.navbar .main-menu .features{
+    display: flex;
+    width: 1000px;
+    right: -330px;
+}
+
+#overlay{
+    margin-top: 120px;
+    position: relative;
+}
+
+#overlay .overlay{
+    background: url(/img/header/brooke-lark-289769-unsplash-1300x530.jpg) center center/cover;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+}
+
+
+#overlay .overlay h1{
+    
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    z-index: 1;
+    position: relative;
+}
+
+#overlay .overlay p{
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    z-index: 1;
+    position: relative;
+    
+}
+
+#overlay::before{
+    content:'' ;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.425);
+    
+}
+
+
+.hero .content ul li a i{
+     font-size: 80px;
+     
+ }
+
+
+
+/* Blog */
+
+
+
+.like{
+    width: 80px;
+    height: 80px;
+    border-radius:  50%;
+    background-color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: -25px;
+    left: 30px;
+    box-shadow: 0 0 15px rgba(10, 10, 10, 25%) ;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.like i{
+    margin-top: 20px;
+}
+
+.item4 .like4{
+    width: 80px;
+    height: 80px;
+    border-radius:  50%;
+    background-color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: -25px;
+    left: 30px;
+    box-shadow: 0 0 15px rgba(10, 10, 10, 25%) ;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+
+.item4 .like4 i{
+    margin-top: 20px;
+}
+
+
+.item2 .like4{
+    width: 80px;
+    height: 80px;
+    border-radius:  50%;
+    background-color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: -25px;
+    left: 30px;
+    box-shadow: 0 0 15px rgba(10, 10, 10, 25%) ;
+    cursor: pointer;
+    
+    font-size: 15px;
+}
+
+
+.item2 .like4 i{
+    margin-top: 20px;
+}
+
+
+.item3 .like4{
+    width: 80px;
+    height: 80px;
+    border-radius:  50%;
+    background-color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: -25px;
+    left: 30px;;
+    box-shadow: 0 0 15px rgba(10, 10, 10, 25%) ;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+
+.item3 .like4 i{
+    margin-top: 20px;
+}
+
+
+
+.item4 .like6{
+    width: 80px;
+    height: 80px;
+    border-radius:  50%;
+    background-color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: -25px;
+    left: 30px;
+    box-shadow: 0 0 25px rgba(10, 10, 10, 15%) ;
+    cursor: pointer;
+    
+    font-size: 15px;
+}
+
+
+.item4 .like6 i{
+    margin-top: 20px;
+}
+
+#blog{
+    padding-top: 100px;
+    padding-bottom: 50px;
+    background-color: rgb(248, 248, 248);
+}
+
+#blog .read-more{
+    text-align: center;
+}
+
+#blog .blog{
+    display: flex;
+    justify-content: space-between;
+    margin: 70px auto;
+    
+    
+}
+
+#blog .title{
+    text-align: center;
+}
+
+#blog .blog .blog-item{
+    width: 31%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    
+}
+
+#blog .blog .blog-item .content{
+    padding: 25px
+}
+
+#blog .blog .blog-item .item4{
+   margin-top: 50px;
+   position: relative;
+}
+
+
+#blog .blog .blog-item img{
+    width: 100%;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    height: auto;
+    vertical-align: middle;
+    position: relative;
+}
+
+#blog .blog .blog-item .img{
+    overflow: hidden;
+}
+
+
+#blog .blog .blog-item .img-item{
+    background: rgba(0, 0, 0, 0.8);
+    position: relative;
+}
+
+
+#blog .blog .blog-item img:hover{
+    transform: scale(1.1);
+    opacity: 0.5;
+}
+
+
+#blog h1{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+   
+}
+
+#blog .title p{
+    font-size: 18px;
+    margin-bottom: 30px;
+    color:rgb(109, 108, 108) ;
+}
+
+#blog .blog .blog-item h4{
+    margin-top: 80px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    color: rgb(255, 81, 0);
+    font-size: 13px;
+}
+
+
+
+#blog .blog .blog-item p{
+    margin-bottom: 30px;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+
+
+
+#blog .blog .blog-item h2{
+    font-size: 27px;
+    color: black;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    transition: all 0.2s ease-in-out;
+}
+
+
+#blog .blog .blog-item h2:hover{
+    color: coral;
+}
+
+
+
+
+#blog .blog .blog-item span{
+    color: red;
+}
+
+
+
+#blog .blog .blog-item ul{
+    display: flex;
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+
+
+#blog .blog .blog-item ul li{
+    margin: 0 10px;
+}
+
+
+#blog .blog .blog-item ul li i{
+    font-size: 15px;
+    color: black;
+    transition: all 0.3s ease-in-out;
+    
+}
+
+
+#blog .blog .blog-item ul li:hover a i{
+    color: coral;
+}
+
+#blog .blog .blog-item .item1{
+    background-color: white;
+}
+
+#blog .blog .blog-item .item2{
+    background-color: white;
+}
+
+#blog .blog .blog-item .item3{
+    background-color: white;
+}
+
+#blog .blog .blog-item .item4{
+    background-color: white;
+}
+
+#blog #read-more{
+    background-color: #333;
+    padding: 20px 150px;
+    color: white;
+    transition: all 0.2s ease-in-out;
+    
+}
+
+
+#blog #read-more:hover{
+    background-color: coral;
+    color: white;
+}
+
+/* Technology */
+
+#technology{
+    padding-top: 90px;
+}
+
+#technology #banner{
+    padding-top: 90px;
+    padding-bottom: 100px;
+    width: 100%;
+    margin: auto;
+}
+
+
+#technology .main-div img{
+    width: 100%;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    height: auto;
+    vertical-align: middle;
+    
+}
+
+
+.main-div .like6{
+    width: 80px;
+    height: 80px;
+    border-radius:  50%;
+    background-color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    box-shadow: 0 0 15px rgba(10, 10, 10, 25%) ;
+    cursor: pointer;
+    bottom: -25px;
+    left: 30px;
+    font-size: 15px;
+}
+
+
+.main-div .like6 i{
+    padding-top: 20px;
+}
+
+#technology .main-div .img-item{
+    background: rgba(0, 0, 0, 0.8);
+    position: relative;
+}
+
+#technology .main-div .img-item .img{
+    overflow: hidden;
+}
+
+
+
+#technology .main-div img:hover{
+    transform: scale(1.1);
+    opacity: 0.5;
+}
+
+
+#technology .right-div .right-item img{
+    
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    height: auto;
+    vertical-align: middle;
+   
+    
+}
+
+
+#technology .right-div .right-item .left{
+    float: left;
+    margin-right: 40px;
+   
+    
+    
+}
+
+
+#technology .right-div .right-item .img-item{
+    width: 110px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.8);
+    overflow: hidden;
+}
+
+#technology .right-div .right-item .img-item img{
+  width: 110px;
+ 
+  
+}
+
+#technology .right-div .right-item img:hover{
+    transform: scale(1.1);
+    opacity: 0.5;
+    
+}
+
+
+#technology h1{
+    font-size: 40px; 
+    margin-bottom: 20px;
+    font-weight: bold;
+    
+}
+
+#technology p{
+    margin-bottom: 40px;
+    color: rgb(131, 128, 128);
+}
+
+#technology .main-div{
+    width: 67%;
+    float: left;
+}
+
+#technology .main-div img{
+    width: 100%;
+}
+
+#technology .main-div .content{
+    margin-top: 50px;
+}
+
+#technology .main-div h2{
+    padding-top: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+
+#technology .main-div p span{
+    color: red;
+}
+
+
+
+#technology .main-div ul{
+    display: flex;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    
+}
+
+
+
+#technology .main-div ul li{
+    margin: 0 10px;
+}
+
+
+#technology .main-div ul li i{
+    font-size: 15px;
+    color: black;
+    transition: all 0.3s ease-in-out;
+    
+}
+
+
+#technology .main-div ul li:hover a i{
+    color: coral;
+}
+
+
+#technology .main-div h2{
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+    transition: all 0.2s ease-in-out;
+}
+
+
+#technology .main-div h2:hover{
+    color: coral;
+}
+
+#technology .right-div{
+    width: 30%;
+    float: right;
+    
+}
+
+#technology .right-div .right-item h4{
+   font-size: 15px;
+   color: red;
+   
+}
+
+#technology .right-div .right-item a i{
+    margin-left: 10px;
+}
+
+#technology .right-div .right-item h3{
+        font-size: 17px;
+        margin-bottom: 10px;
+        color: black;
+        font-weight: bold;
+        transition: all 0.2s ease-in-out;
+        
+}
+
+#technology .right-div .right-item p a{
+    font-size: 12px;
+}
+
+#technology .right-div .right-item h3:hover{
+    color: coral;
+}
+
+/* fashion */
+
+.fashion{
+    width: 100%;
+}
+
+.fashion h1{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.fashion p{
+    color: rgb(116, 112, 112);
+    margin-bottom: 50px;
+}
+
+
+
+.fashion-item .like6{
+    width: 80px;
+    height: 80px;
+    border-radius:  50%;
+    background-color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: -25px;
+    left: 30px;
+    box-shadow: 0 0 15px rgba(10, 10, 10, 25%) ;
+    cursor: pointer;
+    
+    font-size: 15px;
+}
+
+
+.fashion-item .like6 i{
+    margin-top: 20px;
+}
+
+
+
+.fashion .fashion-item img{
+    max-width: 100%;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+.fashion .fashion-item .img-item{
+    background: rgba(0, 0, 0, 0.8);
+    width: 500px;
+    float: left;
+    margin-right: 50px;
+    position: relative;
+}
+
+.fashion .fashion-item .img-item .img{
+    overflow: hidden;
+}
+
+
+.fashion .fashion-item img:hover{
+    transform: scale(1.1);
+    opacity: 0.5;
+}
+
+.fashion .fashion-item{
+    margin-bottom: 160px;
+    margin-top: 40px;
+}
+
+.fashion .fashion-item a h2{
+        font-weight: bold;
+        font-size: 30px;
+        color: black;
+        transition: all 0.2s ease-in-out;
+       
+}
+
+.fashion .fashion-item a h2:hover{
+    color: coral;
+}
+
+
+.fashion .fashion-item p a span{
+    color: red;
+}
+
+.fashion .fashion-item p{
+    margin-top: 10px;
+}
+
+
+.fashion .fashion-item a#read-more{
+    color: red;
+
+}
+
+/* news letter */
+
+.newsletter{
+    background-image: url(/img/form-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    margin-top: 50px;
+}
+
+.newsletter .inner-div{
+    padding: 60px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 40px rgba(10, 10, 10, 50%) ;
+}
+
+
+.newsletter .inner-div .title h2{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.newsletter .inner-div .title p{
+    padding-top: 10px;
+    font-weight: bold;
+    color: rgb(160, 158, 158);
+}
+
+.newsletter .inner-div .input{
+    background: white;
+    
+    
+}
+
+.newsletter .inner-div .input input{
+    width: 300px;
+    height: 60px;
+    border: 1px solid white;
+    margin-left: 20px;
+    outline: white;
+}
+
+
+.newsletter button{
+    background-color: #333;
+    color: white;
+    padding: 9px 30px;
+    font-size: 15px;
+    transition: all 0.2s ease-in-out;
+    height: 60px;
+    
+}
+
+.newsletter button:hover{
+    background-color: coral;
+    color: #333;
+}
+
+
+
+
+/* travel */
+
+.travel{
+    padding-top: 90px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 70px auto;
+    justify-content: space-between;
+}
+
+.travel h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.travel p{
+    margin-bottom: 20px;
+    color: rgb(97, 95, 95);
+
+}
+
+
+.travel-item .like6{
+    width: 80px;
+    height: 80px;
+    border-radius:  50%;
+    background-color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: -25px;
+    left: 30px;
+    box-shadow: 0 0 15px rgba(10, 10, 10, 25%) ;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+
+.travel-item .like6 i{
+    padding-top: 20px;
+}
+
+.travel .travel-item .content{
+    padding: 25px;
+}
+
+.travel .travel-item img{
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    height: auto;
+    vertical-align: middle;
+    
+}
+
+.travel .travel-item .img-item .img{
+    overflow: hidden;
+}
+
+.travel .travel-item .img-item .img img{
+    width: 100%;
+}
+
+.travel .travel-item .img-item{
+    background: rgba(0, 0, 0, 0.8);
+    position: relative;
+}
+
+
+.travel .travel-item img:hover{
+    transform: scale(1.1);
+    opacity: 0.5;
+}
+
+.travel .travel-blog{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 70px auto;
+    justify-content: space-between;
+}
+
+.travel .travel-item{
+    width: 31%;
+    margin-bottom: 30px;
+
+}
+
+.travel .travel-item h4{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    color: red;
+    font-size: 12px;
+
+}
+
+.travel .travel-item a h2{
+    color: black;
+    font-weight: bold;
+    margin-bottom: 20px;
+    transition: all 0.2s ease-in-out;
+ 
+}
+
+.travel .travel-item a h2:hover{
+    color: coral;
+}
+
+
+.travel .travel-item ul{
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+    
+}
+
+
+
+.travel .travel-item ul li{
+    margin: 0 10px;
+}
+
+
+.travel .travel-item ul li i{
+    font-size: 15px;
+    color: black;
+    transition: all 0.3s ease-in-out;
+    
+}
+
+
+.travel .travel-item ul li:hover a i{
+    color: coral;
+}
+
+
+.travel .travel-item p a span{
+    color: red;
+}
+
+
+/* gallery */
+
+
+.gallery{
+    text-align: center;
+    background-color: rgb(236, 232, 232);
+    padding: 60px;
+}
+
+.gallery .gallery-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.gallery .gallery-item img{
+    width: 100%;
+}
+
+.gallery h2{
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+
+/* contact */
+
+/*  */
+
+.contact{
+    background-color: #1c2433;
+    padding: 10px 70px;
+
+}    
+
+.contact .contact-item{
+    display: flex;
+    justify-content: center;
+}
+
+.contact .akea{
+    width: 30%;
+    padding-top: 80px;
+
+}
+
+.contact .akea h4{
+    color: white;
+    font-weight: bold;
+    padding-bottom: 30px ;
+}
+
+.contact .akea p{
+    color: #7d8cac;
+    padding-bottom: 30px;
+}
+
+.contact .akea a{
+    color: rgb(216, 84, 36);
+}
+
+
+.contact .category{
+    width: 30%;
+    padding-top: 80px;
+}
+
+.contact .category h4{
+    color: white;
+    font-weight: bold;
+    padding-bottom: 20px ;
+}
+
+.contact .category ul li{
+    padding-top: 10px;
+    flex: 0 50%;
+
+    
+}
+
+.contact .category ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact .category ul li a{
+    transition: all 0.2s ease-in-out;
+}
+
+.contact .category ul li:hover a{
+    color: white;
+}
+
+.contact .social{
+    width: 30%;
+    padding-top: 80px;
+}
+
+.contact .social h4{
+    color: white;
+    padding-bottom: 20px ;
+}
+
+.contact .social ul{
+    display: flex;
+}
+
+.contact .social ul li i{
+    color: white;
+    padding-right: 20px;
+}
+
+
+/* footer */
+
+footer{
+    background-color: #242e3f;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+footer p{
+    color: #9dbece;
+    float: left;
+    padding: 30px 90px;
+}
+
+footer ul{
+    display: flex;
+    float: right;
+    padding: 30px 90px;
+}
+
+footer ul li{
+    padding-left: 20px;
+}
+
+footer ul li a{
+    transition: all 0.2s ease-in-out;
+}
+
+footer ul li a:hover{
+    color: white;
+}
+
+/* footer-menu */
+
+.footer-menu{
+    width: 100%;
+    
+    
+}
+
+.footer-menu .footer-title{
+    float: left;
+    display: flex;
+    
+}
+
+.footer-menu .footer-title h4{
+    padding-left: 150px;
+    margin-top: 35px;
+}
+
+.footer-menu .footer-title a{
+    margin-top: 25px;
+    margin-left: 30px;
+}
+
+.footer-menu .footer-title a p{
+    font-size: 30px;
+}
+
+.footer-menu .footer-img{
+    display: flex;
+    float: right;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding-right: 570px;
+}
+
+.footer-menu .footer-img img{
+    width: 50px;
+    margin: 0 5px;
+    border-radius: 2px;
+    transition: all 0.2s ease-in-out;
+}
+
+.footer-menu .footer-img img:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 40px rgba(10, 10, 10, 50%) ;
+    cursor: pointer;
+}
